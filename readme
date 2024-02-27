@@ -1,0 +1,15 @@
+xampp -> 8.0 or above
+laravel package ->10
+
+At First Run Composer Install
+
+
+2- create an .env file [copy from .env.example]
+1- make database  [acs]
+2- run command -> php artisan migrate --seed
+
+3-check database for users
+    default password for all users is = Password!@#123
+
+
+in root foler I have Uploaded ERD.jepg it is erd and activity [Activity Diagrams.png] diagrams
