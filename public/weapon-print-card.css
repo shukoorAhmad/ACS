@@ -1,0 +1,126 @@
+ * {
+     @font-face {
+         font-family: 'Bahij Traffic-Bold';
+         src: url('{{ asset('fonts/Bahij Traffic-Bold.ttf') }}');
+     }
+ }
+ 
+ body {
+     background-color: #5f6368;
+     width: 2.11in !important;
+     min-width: 2.11in !important;
+     margin: 0 auto !important;
+     padding: 0 !important;
+     height: 3.367in !important;
+     font-family: Calibri !important;
+     font-weight: bold !important;
+     font-size: 13px;
+ }
+ 
+ .cardType {
+     position: absolute !important;
+     width: 3.367in;
+     margin-top: 115px !important;
+     margin-right: 350px !important;
+     text-align: center !important;
+ }
+ 
+ .details {
+     width: 400px;
+     height: 200px;
+     margin-right: 238px !important;
+     margin-top: -188px !important;
+ }
+ 
+ .first {
+     float: right !important;
+     line-height: 40px !important;
+ }
+ 
+ .first>p,
+ h3 .second>p,
+ h3 {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .first>p,
+ .second>p {
+     font-size: 28px !important;
+ }
+ 
+ .second {
+     float: left !important;
+     margin-left: -152px !important;
+     line-height: 11px !important;
+ }
+ 
+ .cardPlace {
+     position: absolute !important;
+     color: white !important;
+     margin-top: 250px !important;
+     text-align: center !important;
+     margin-right: 342px !important;
+     border-top-left-radius: 10px !important;
+     border-top-right-radius: 10px !important;
+     font-size: 35px !important;
+ }
+ 
+ .cardPlace>p {
+     margin-top: -22px !important;
+     margin-bottom: 5px !important;
+ }
+ 
+ .qrcode {
+     position: absolute !important;
+     margin-right: 835px !important;
+     margin-top: 50px !important;
+ }
+ 
+ .barcode {
+     position: absolute !important;
+     width: 3.367in;
+     text-align: center !important;
+     margin-left: 233px !important;
+     margin-top: 514px !important;
+ }
+ 
+ .signature {
+     display: block;
+     position: absolute !important;
+ }
+ 
+ .signature>img {
+     height: 150px !important;
+     margin-top: 300px !important;
+     margin-right: 50px !important;
+ }
+ 
+ .qrcode_text {
+     font-size: 26px;
+     margin-right: 830px;
+     margin-top: 204px;
+     color: black;
+     position: absolute;
+ }
+ 
+ .appImg {
+     width: 166px !important;
+     height: 188px !important;
+     margin-right: 46px !important;
+     margin-top: 167px !important;
+ }
+ 
+ .button {
+     background-color: #17a2b8;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 18px;
+     margin: 4px 2px;
+     cursor: pointer;
+     width: 150% !important;
+ }
